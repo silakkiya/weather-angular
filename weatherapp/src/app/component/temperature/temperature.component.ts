@@ -1,4 +1,5 @@
 import { Component, OnInit, Input } from '@angular/core';
+// import { ITemperature } from './../../models/temperature';
 import { ITemperature } from './../../models/temperature';
 @Component({
   selector: 'app-temperature',
@@ -6,9 +7,9 @@ import { ITemperature } from './../../models/temperature';
   styleUrls: ['./temperature.component.css']
 })
 export class TemperatureComponent implements OnInit {
-
-  constructor() { }
   @Input() tempInfo: ITemperature;
+  constructor() { }
+  
   ngOnInit() {
   }
 

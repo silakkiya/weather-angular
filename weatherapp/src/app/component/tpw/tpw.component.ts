@@ -1,4 +1,6 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit,Input} from '@angular/core';
+
+import { Itpw } from './../../models/tpw';
 
 @Component({
   selector: 'app-tpw',
@@ -6,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./tpw.component.css']
 })
 export class TpwComponent implements OnInit {
-
+  @Input() tpwInfo: Itpw;
   constructor() { }
 
   ngOnInit() {

@@ -1,4 +1,5 @@
 export interface ITemperature{
-    currentWeatherImage: string
-    temperature: string
+    currentWeatherImageURL : string,
+    tempInCelcius: string,
+    tempInFahrenheit:string
 }
