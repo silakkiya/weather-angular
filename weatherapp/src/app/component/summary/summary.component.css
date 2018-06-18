@@ -1,0 +1,28 @@
+h1{
+    text-align: center
+}
+.a{
+    text-align: center
+}
+#container {
+    height: 155vh;
+    width: 100vh;
+    margin: 25vh auto;
+    margin-top: 35px;
+    margin-bottom: 10px;
+    border: 2px solid ;
+    background-color: whitesmoke;
+}
+#place{
+    margin-left: 10vh;
+    margin-top: 5vh;
+    font-size: 40px;
+}
+#day{
+    margin-left: 10vh;
+    font-size: 35px;
+}
+#temp{
+    margin-left: 10vh;
+    font-size: 35px;
+}
